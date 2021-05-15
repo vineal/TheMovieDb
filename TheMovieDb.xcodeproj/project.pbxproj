@@ -15,6 +15,8 @@
 		34577EAB2650207C005AF13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34577EA92650207C005AF13F /* LaunchScreen.storyboard */; };
 		34577EB62650207D005AF13F /* TheMovieDbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34577EB52650207D005AF13F /* TheMovieDbTests.swift */; };
 		34577EC12650207D005AF13F /* TheMovieDbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34577EC02650207D005AF13F /* TheMovieDbUITests.swift */; };
+		34577ED726504858005AF13F /* MovieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34577ED626504858005AF13F /* MovieCollectionView.swift */; };
+		34577ED92650489F005AF13F /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34577ED82650489F005AF13F /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		34577EBC2650207D005AF13F /* TheMovieDbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieDbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34577EC02650207D005AF13F /* TheMovieDbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieDbUITests.swift; sourceTree = "<group>"; };
 		34577EC22650207D005AF13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34577ED626504858005AF13F /* MovieCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionView.swift; sourceTree = "<group>"; };
+		34577ED82650489F005AF13F /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				34577EA72650207C005AF13F /* Assets.xcassets */,
 				34577EA92650207C005AF13F /* LaunchScreen.storyboard */,
 				34577EAC2650207C005AF13F /* Info.plist */,
+				34577ED626504858005AF13F /* MovieCollectionView.swift */,
+				34577ED82650489F005AF13F /* MovieCollectionViewCell.swift */,
 			);
 			path = TheMovieDb;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				34577EA326502078005AF13F /* ViewController.swift in Sources */,
 				34577E9F26502078005AF13F /* AppDelegate.swift in Sources */,
+				34577ED92650489F005AF13F /* MovieCollectionViewCell.swift in Sources */,
 				34577EA126502078005AF13F /* SceneDelegate.swift in Sources */,
+				34577ED726504858005AF13F /* MovieCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
